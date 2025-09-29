@@ -1,0 +1,45 @@
+{
+  "name": "matoupion-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --force --clearScreen false",
+    "build": "vue-tsc -b && vite build --emptyOutDir",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KelioDev/matoupion.git"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^2.2.0",
+    "@vueuse/core": "^10.7.2",
+    "axios": "^1.6.7",
+    "chart.js": "^4.4.8",
+    "chess.js": "github:KelioDev/chess.js-mtp",
+    "chessground": "9.1.1",
+    "cookie-es": "^1.2.2",
+    "destr": "^2.0.3",
+    "mitt": "^3.0.1",
+    "npm": "^11.0.0",
+    "ofetch": "^1.4.1",
+    "pinia": "^2.1.7",
+    "unplugin-auto-import": "^0.18.6",
+    "vue": "^3.4.38",
+    "vue-router": "^4.2.5",
+    "vue-shepherd": "^5.0.1",
+    "vue3-chessboard": "github:KelioDev/vue3-chessboard-mtp"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "@types/node": "^22.13.4",
+    "@vitejs/plugin-vue": "^5.1.3",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.2",
+    "vue-tsc": "^2.1.4"
+  }
+}

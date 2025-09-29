@@ -1,0 +1,82 @@
+/** Embedded SVGs for all chess pieces */
+.matoupion.stone .cg-wrap piece, .matoupion.wood .cg-wrap piece {
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.matoupion.stone .cg-wrap piece.pawn.white {
+  background-image: url('/images/pieces/piece_pion_blanc.png');
+}
+.matoupion.stone .cg-wrap piece.bishop.white {
+  background-image: url('/images/pieces/piece_fou_blanc.png');
+}
+.matoupion.stone .cg-wrap piece.knight.white {
+  background-image: url('/images/pieces/piece_cavalier_blanc.png');
+}
+.matoupion.stone .cg-wrap piece.rook.white {
+  background-image: url('/images/pieces/piece_tour_blanc.png');
+ }
+.matoupion.stone .cg-wrap piece.queen.white {
+  background-image: url('/images/pieces/piece_dame_blanc.png');
+}
+.matoupion.stone .cg-wrap piece.king.white {
+  background-image: url('/images/pieces/piece_roi_blanc.png');
+}
+
+
+.matoupion.stone .cg-wrap piece.pawn.black {
+  background-image: url('/images/pieces/piece_pion_noir.png');
+}
+.matoupion.stone .cg-wrap piece.bishop.black {
+  background-image: url('/images/pieces/piece_fou_noir.png');
+}
+.matoupion.stone .cg-wrap piece.knight.black {
+  background-image: url('/images/pieces/piece_cavalier_noir.png');
+}
+.matoupion.stone .cg-wrap piece.rook.black {
+  background-image: url('/images/pieces/piece_tour_noir.png');
+ }
+.matoupion.stone .cg-wrap piece.queen.black {
+  background-image: url('/images/pieces/piece_dame_noir.png');
+}
+.matoupion.stone .cg-wrap piece.king.black {
+  background-image: url('/images/pieces/piece_roi_noir.png');
+}
+
+.matoupion.wood .cg-wrap piece.pawn.white {
+  background-image: url('/images/pieces/piece_pion_blanc.png');
+}
+.matoupion.wood .cg-wrap piece.bishop.white {
+  background-image: url('/images/pieces/piece_fou_blanc.png');
+}
+.matoupion.wood .cg-wrap piece.knight.white {
+  background-image: url('/images/pieces/piece_cavalier_blanc.png');
+}
+.matoupion.wood .cg-wrap piece.rook.white {
+  background-image: url('/images/pieces/piece_tour_blanc.png');
+ }
+.matoupion.wood .cg-wrap piece.queen.white {
+  background-image: url('/images/pieces/piece_dame_blanc.png');
+}
+.matoupion.wood .cg-wrap piece.king.white {
+  background-image: url('/images/pieces/piece_roi_blanc.png');
+}
+
+.matoupion.wood .cg-wrap piece.pawn.black {
+  background-image: url('/images/pieces/piece_pion_marron.png');
+}
+.matoupion.wood .cg-wrap piece.bishop.black {
+  background-image: url('/images/pieces/piece_fou_marron.png');
+}
+.matoupion.wood .cg-wrap piece.knight.black {
+  background-image: url('/images/pieces/piece_cavalier_marron.png');
+}
+.matoupion.wood .cg-wrap piece.rook.black {
+  background-image: url('/images/pieces/piece_tour_marron.png');
+ }
+.matoupion.wood .cg-wrap piece.queen.black {
+  background-image: url('/images/pieces/piece_dame_marron.png');
+}
+.matoupion.wood .cg-wrap piece.king.black {
+  background-image: url('/images/pieces/piece_roi_marron.png');
+}
